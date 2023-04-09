@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { HeroOneButton } from '../hero/HeroOneButton';
+import { HeroTittle } from '../hero/HeroTittle';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -43,7 +43,7 @@ const Hero = () => (
     </Section>
 
     <Section yPadding="py-2">
-      <HeroOneButton
+      <HeroTittle
         title={
           <>
             {
