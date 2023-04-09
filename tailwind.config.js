@@ -21,6 +21,8 @@ module.exports = {
           dark: '#388E3C',
         },
         accent: '#009688',
+        divider: '#BDBDBD',
+        card: '#BDBDBD40',
         text: {
           primary: '#212121',
           secondary: '#757575',
