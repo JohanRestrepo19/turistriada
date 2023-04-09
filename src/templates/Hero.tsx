@@ -1,13 +1,12 @@
 import Link from 'next/link';
 
-import { Background } from '../background/Background';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <>
     <Section yPadding="pt-7 pb-7">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
@@ -55,7 +54,7 @@ const Hero = () => (
         description="Una app hecha especialmente para el turismo en Pereira, Dosquebradas y Santa Rosa de Cabal"
       />
     </Section>
-  </Background>
+  </>
 );
 
 export { Hero };
