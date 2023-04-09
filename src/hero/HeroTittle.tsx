@@ -1,11 +1,11 @@
 import { ReactNode } from 'react';
 
-type IHeroOneButtonProps = {
+type IHeroTittleProps = {
   title: ReactNode;
   description: string;
 };
 
-const HeroOneButton = (props: IHeroOneButtonProps) => (
+const HeroTittle = (props: IHeroTittleProps) => (
   <header className="text-center">
     <h1 className="text-6xl text-gray-900 font-bold leading-hero">
       {props.title}
@@ -14,4 +14,4 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
   </header>
 );
 
-export { HeroOneButton };
+export { HeroTittle };

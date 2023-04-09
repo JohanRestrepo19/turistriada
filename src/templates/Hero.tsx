@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { HeroOneButton } from '../hero/HeroOneButton';
+import { HeroTittle } from '../hero/HeroTittle';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -42,8 +42,8 @@ const Hero = () => (
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pb-32">
-      <HeroOneButton
+    <Section>
+      <HeroTittle
         title={
           <>
             {
