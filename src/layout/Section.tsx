@@ -5,12 +5,17 @@ type ISectionProps = {
   description?: string;
   yPadding?: string;
   children: ReactNode;
+  disableDivider?: boolean;
+};
+
+const Divider = () => {
+  return <div className="border-t-2 border-primary-base my-48"></div>;
 };
 
 const Section = (props: ISectionProps) => (
   <div
     className={`max-w-screen-lg mx-auto px-3 ${
-      props.yPadding ? props.yPadding : 'py-16'
+      props.yPadding ? props.yPadding : 'py-8'
     }`}
   >
     {(props.title || props.description) && (
@@ -27,6 +32,8 @@ const Section = (props: ISectionProps) => (
     )}
 
     {props.children}
+
+    {!props.disableDivider && <Divider />}
   </div>
 );
 

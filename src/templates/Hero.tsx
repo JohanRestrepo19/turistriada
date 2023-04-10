@@ -7,7 +7,7 @@ import { Logo } from './Logo';
 
 const Hero = () => (
   <>
-    <Section yPadding="py-7">
+    <Section yPadding="py-7" disableDivider>
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="/">
@@ -42,7 +42,7 @@ const Hero = () => (
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="py-2">
+    <Section yPadding="py-2" disableDivider>
       <HeroTitle
         title={
           <>
