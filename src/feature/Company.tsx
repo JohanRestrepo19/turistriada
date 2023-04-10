@@ -29,7 +29,7 @@ const Company = (props: ICompanyProps) => {
         <div className="mt-6 text-xl text-justify leading-8">
           {props.description}
         </div>
-        <button className="rounded-full mt-8 px-9 py-1 border-2 text-xl text-accent border-accent hover:border-primary-base hover:text-primary-base">
+        <button className="rounded-full mt-8 px-9 py-2 border-2 text-xl text-accent border-accent hover:border-primary-base hover:text-primary-base hover:ring hover:ring-primary-light">
           Descubre más
         </button>
       </div>
