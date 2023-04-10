@@ -24,7 +24,7 @@ const Plans = () => (
       />
     </div>
     <div className="flex justify-center">
-      <button className="rounded-full mt-8 bg-primary-base text-white px-9 py-1 text-xl hover:bg-primary-dark">
+      <button className="rounded-full font-bold mt-20 bg-gradient-to-r from-primary-light to-primary-base text-white px-20 py-2 text-xl hover:ring hover:ring-primary-light">
         Prueba gratis por 30 días
       </button>
     </div>
