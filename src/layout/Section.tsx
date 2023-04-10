@@ -9,7 +9,7 @@ type ISectionProps = {
 };
 
 const Divider = () => {
-  return <div className="border-t-2 border-primary-base my-48"></div>;
+  return <div className="border-t-2 border-primary-base mt-24"></div>;
 };
 
 const Section = (props: ISectionProps) => (

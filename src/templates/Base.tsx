@@ -1,5 +1,6 @@
 import { Background } from '../background/Background';
 import { Meta } from '../layout/Meta';
+import { Preview } from '../preview/Preview';
 import { Team } from '../team/Team';
 import { AppConfig } from '../utils/AppConfig';
 import { Banner } from './Banner';
@@ -16,6 +17,7 @@ const Base = () => (
       <VerticalFeatures />
       <Banner />
       <Benefits />
+      <Preview />
       <Team />
       <Footer />
     </Background>
