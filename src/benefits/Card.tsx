@@ -9,8 +9,8 @@ type CardProps = {
 };
 
 const Card = (props: CardProps) => (
-  <div className="container flex flex-col bg-card rounded-md p-8 w-96">
-    <h2 className="text-2xl text-black font-bold m-2 self-center">
+  <div className="container flex flex-col bg-card rounded-md p-8 w-96 shadow-2xl">
+    <h2 className="text-2xl text-black font-bold m-4 self-center">
       {props.title}
     </h2>
 
