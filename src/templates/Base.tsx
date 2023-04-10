@@ -4,6 +4,7 @@ import { Team } from '../team/Team';
 import { AppConfig } from '../utils/AppConfig';
 // import { Banner } from './Banner';
 import { Benefits } from './Benefits';
+import { Contact } from './Contact';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { VerticalFeatures } from './VerticalFeatures';
@@ -17,6 +18,7 @@ const Base = () => (
       {/* TODO: Componente por borrar o por reutilizar: */}
       {/* <Banner /> */}
       <Benefits />
+      <Contact />
       <Team />
       <Footer />
     </Background>
