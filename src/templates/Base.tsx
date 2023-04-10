@@ -6,6 +6,7 @@ import { Banner } from './Banner';
 import { Benefits } from './Benefits';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
+import { Plans } from './Plans';
 import { VerticalFeatures } from './VerticalFeatures';
 
 const Base = () => (
@@ -16,6 +17,7 @@ const Base = () => (
       <VerticalFeatures />
       <Banner />
       <Benefits />
+      <Plans />
       <Team />
       <Footer />
     </Background>

@@ -3,7 +3,7 @@ import { Section } from '../layout/Section';
 
 const Benefits = () => (
   <Section title="Beneficios">
-    <div className="flex flex-row justify-around">
+    <div className="flex flex-wrap justify-around gap-y-4">
       <Card
         title="Turista"
         benefits={[
