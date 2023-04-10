@@ -1,9 +1,10 @@
 import React from 'react';
 
+import { CheckIcon } from './CheckIcon';
+
 type CardProps = {
   title: string;
-  firstBenefit: string;
-  secondBenefit: string;
+  benefits: string[];
 };
 
 const Card = (props: CardProps) => (
@@ -11,8 +12,13 @@ const Card = (props: CardProps) => (
     <h2 className="text-2xl text-black font-bold m-4 self-center">
       {props.title}
     </h2>
-    <p className="text-lg text-black p-2 m-2">{props.firstBenefit}</p>
-    <p className="text-lg text-black p-2 m-2">{props.secondBenefit}</p>
+
+    {props.benefits.map((benefit, index) => (
+      <div className="flex flex-row mb-4" key={index}>
+        <CheckIcon />
+        <p className="text-lg text-black mx-2">{benefit}</p>
+      </div>
+    ))}
   </div>
 );
 
