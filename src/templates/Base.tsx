@@ -1,5 +1,6 @@
 import { Background } from '../background/Background';
 import { Meta } from '../layout/Meta';
+import { Team } from '../team/Team';
 import { AppConfig } from '../utils/AppConfig';
 import { Banner } from './Banner';
 import { Benefits } from './Benefits';
@@ -15,6 +16,7 @@ const Base = () => (
       <VerticalFeatures />
       <Banner />
       <Benefits />
+      <Team />
       <Footer />
     </Background>
   </div>
