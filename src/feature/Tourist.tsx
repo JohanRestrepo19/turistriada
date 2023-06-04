@@ -29,9 +29,11 @@ const Tourist = (props: ITouristProps) => {
         <div className="mt-6 text-xl text-justify leading-8">
           {props.description}
         </div>
-        <button className="rounded-full mt-8 bg-gradient-to-r from-primary-light to-primary-base text-white px-9 py-2 text-xl hover:ring hover:ring-primary-light">
-          Crea tu cuenta
-        </button>
+        <a href="https://turistriada.web.app">
+          <button className="rounded-full mt-8 bg-gradient-to-r from-primary-light to-primary-base text-white px-9 py-2 text-xl hover:ring hover:ring-primary-light">
+            Crea tu cuenta
+          </button>
+        </a>
       </div>
 
       <div className="w-full sm:w-1/2 p-6">

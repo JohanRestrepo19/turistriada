@@ -16,7 +16,7 @@ const Logo = (props: ILogoProps) => {
         src="assets\images\logo.png"
         alt="Logo"
       ></img>
-      {AppConfig.site_name}
+      <a href="#hero">{AppConfig.site_name}</a>
     </span>
   );
 };

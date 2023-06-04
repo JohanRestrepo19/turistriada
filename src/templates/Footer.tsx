@@ -12,8 +12,8 @@ const Footer = () => (
         logo={<Logo />}
         iconList={
           <>
-            <Link href="/">
-              <a>
+            <Link href="https://www.instagram.com/turistriada/">
+              <a target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -25,8 +25,8 @@ const Footer = () => (
               </a>
             </Link>
 
-            <Link href="/">
-              <a>
+            <Link href="https://www.facebook.com/profile.php?id=100092108271960">
+              <a target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -40,7 +40,7 @@ const Footer = () => (
           </>
         }
       >
-        <li>
+        {/* <li>
           <Link href="/">
             <a>Inicio</a>
           </Link>
@@ -54,7 +54,7 @@ const Footer = () => (
           <Link href="/">
             <a>FAQs</a>
           </Link>
-        </li>
+        </li> */}
       </CenteredFooter>
     </Section>
   </Background>

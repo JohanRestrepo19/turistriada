@@ -6,36 +6,36 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <>
+  <div id="hero">
     <Section yPadding="py-7" disableDivider>
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/">
+          <Link href="#features">
             <a className="hover:text-primary-dark">Inicio</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="#benefits">
             <a className="hover:text-primary-dark">Beneficios</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="#plans">
             <a className="hover:text-primary-dark">Planes</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="#contact">
             <a className="hover:text-primary-dark">Contacto</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="https://turistriada.web.app">
             <a className="hover:text-primary-dark">Regístrate</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="https://turistriada.web.app">
             <a className="hover:text-primary-dark">Iniciar Sesión</a>
           </Link>
         </li>
@@ -47,14 +47,14 @@ const Hero = () => (
         title={
           <>
             {
-              'Descubre Un Mundo Lleno De\nLugares Fantásticos Y\nDesconocidos De Nosotros Para\nTodos\n'
+              '¡Descubre un mundo lleno de\nlugares fantásticos y\ndesconocidos de nosotros para\ntodos!\n'
             }
           </>
         }
-        description="Una app hecha especialmente para el turismo en Pereira, Dosquebradas y Santa Rosa de Cabal"
+        description="Un sitio web hecho especialmente para el turismo en Pereira, Dosquebradas y Santa Rosa de Cabal."
       />
     </Section>
-  </>
+  </div>
 );
 
 export { Hero };
