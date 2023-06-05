@@ -19,7 +19,7 @@ const Preview = () => {
         />
         <PreviewImageItem
           imageSrc="/assets/images/preview/app-preview-4.png"
-          desc="Publicar productos o servicios para las empresas"
+          desc="Publicar promociones para las empresas"
         />
       </div>
     </Section>
