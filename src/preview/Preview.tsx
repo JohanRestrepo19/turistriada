@@ -13,7 +13,10 @@ const Preview = () => {
           imageSrc="/assets/images/preview/app-preview-2.png"
           desc="Ver perfil usuarios"
         />
-        <PreviewImageItem imageSrc="" desc="Ver perfil empresas" />
+        <PreviewImageItem
+          imageSrc="/assets/images/preview/app-preview-3.png"
+          desc="Ver perfil empresas"
+        />
         <PreviewImageItem
           imageSrc="/assets/images/preview/app-preview-4.png"
           desc="Publicar promociones para las empresas"

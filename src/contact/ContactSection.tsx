@@ -19,12 +19,19 @@ const ContactSection = (props: IContactSectionProps) => {
 
   const router = useRouter();
 
+  const sendEmail = () => {
+    window.location.href = 'mailto:turistriada@hotmail.com';
+  };
+
   return (
     <div className={verticalFeatureClass}>
       <div className="w-full sm:w-1/2 text-center sm:px-6">
         <div className="mt-6 text-xl leading-8">{props.description}</div>
 
-        <button className="rounded-full font-bold mt-8 bg-gradient-to-r from-primary-light to-primary-base text-white px-20 py-2 text-xl hover:ring hover:ring-primary-light">
+        <button
+          className="rounded-full font-bold mt-8 bg-gradient-to-r from-primary-light to-primary-base text-white px-20 py-2 text-xl hover:ring hover:ring-primary-light"
+          onClick={sendEmail}
+        >
           Contáctanos
         </button>
       </div>
